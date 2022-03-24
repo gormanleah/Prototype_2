@@ -150,8 +150,7 @@ void loop() {
     show_blue();
     
     //wait for 20 mins
-    //delay(1200000);
-    delay(30000);
+    delay(1200000);
     
     //set first_loop to false so loop won't be entered again
     first_loop=false;
