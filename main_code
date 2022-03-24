@@ -141,8 +141,6 @@ void sample_values()
 
 
 void loop() {
-  //Update the arduino cloud
-  ArduinoCloud.update();
   
   if (first_loop==true)
   {
@@ -157,6 +155,9 @@ void loop() {
   }
   
   sample_values();
+  
+  //Update the arduino cloud
+  ArduinoCloud.update();
   
   //wait the sample time set on the dash board
   delay(sample_time*1000);
