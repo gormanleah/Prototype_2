@@ -191,9 +191,7 @@ void show_green()
   executed every time a new value is received from IoT Cloud.
 */
 void onSampleTimeChange()  {
-  //sample the values when sample time is changed so the sample time is changed
-  //immediately instead of ahve to wait for it loop around again
-  sample_values();
+  
 }
 
 
